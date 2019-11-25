@@ -1,9 +1,23 @@
 .color1{
     background-color: #2a80b9;
     height: 50px;
+    color :#ffffff;
+    text-align: center;
 }
 .color2{
     background-color :#ffffff;
     height: 110px;
+    text-align: center;
 }
+.nav-item{
+    color : #002157;
+}
+.color3{
+    color : #e84c3d;
+}
+.color4{
+    background-color : #86c1ea;
+    height: 465px;
+}
+
 
