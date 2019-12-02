@@ -1,8 +1,10 @@
 footer{
-    h1{
-        @include font(18px, $font-black, red);
-        background: rgb(28, 175, 65);
-        border: 5px solid rgb(14,156,155);
-        border-radius: 15px;
+    .payment-social-block{
+        background-color: $bg-color-primary-5;
+        height: 70px;
+    }
+    .footer-main-block{
+        background-color: $bg-color-primary-1;
+        height: 370px;
     }
 }

@@ -1,5 +1,29 @@
-header{
-    h1{
-        color: #57eb4a;
-    }
+header {
+  .before-header {
+    background-color: $bg-color-primary-1;
+    height: 55px;
+    background-image: url("../../img/Bg1.svg");
+    padding: 10px 0;
+  }
+  .header-menu {
+    background-color: $bg-color-primary-2;
+    height: 40px;
+  }
+  .after-header {
+    background-color: $bg-color-primary-3;
+    height: 470px;
+  }
+  .header-contact span {
+    color: $font-color-primary-1;
+    font-size: 20px;
+    font-weight: 100;
+    font-family: $font-thin;
+}
+
+  .header-contact span a {
+    color: $font-color-primary-1;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: $font-regular;
+}
 }

@@ -1,3 +1,6 @@
-.title{
-    @include font(18px, $font-black, red);
+main{
+    .home-page-calc {
+        background-color: $bg-color-primary-7;
+        height: 2275px;
+      }
 }
