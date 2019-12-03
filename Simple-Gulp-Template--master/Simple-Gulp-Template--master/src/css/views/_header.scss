@@ -1,18 +1,15 @@
 header {
   .before-header {
-    background-color: $bg-color-primary-1;
+    //background-color: $bg-color-primary-1;
     height: 55px;
-    background-image: url("../../img/Bg1.svg");
+    background-image: url("../../img/Bg\ Dark2.svg");
     padding: 10px 0;
   }
   .header-menu {
     background-color: $bg-color-primary-2;
     height: 40px;
   }
-  .after-header {
-    background-color: $bg-color-primary-3;
-    height: 470px;
-  }
+  
   .header-contact span {
     color: $font-color-primary-1;
     font-size: 20px;
@@ -25,5 +22,13 @@ header {
     font-size: 20px;
     font-weight: 400;
     font-family: $font-regular;
+  }
+    .after-header {
+      background-color: $bg-color-primary-3;
+      height: 470px;
+      background-image: url("../../img/woman.svg");
+      background-position-y: 3.3%;
+    }
+
 }
-}
+
