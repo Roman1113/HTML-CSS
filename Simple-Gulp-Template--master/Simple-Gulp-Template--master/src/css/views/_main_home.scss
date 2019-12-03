@@ -1,6 +1,14 @@
 main{
     .home-page-calc {
+        background-color: $bg-color-primary-4;
+        height: 110px;
+      }
+      .index-page-content{
         background-color: $bg-color-primary-7;
-        height: 2275px;
+        height: 2200px;
+      }
+      .home-him{
+        background-color: $bg-color-primary-5;
+        height: 100px;
       }
 }

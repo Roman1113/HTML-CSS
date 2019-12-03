@@ -22,12 +22,14 @@ header {
     font-size: 20px;
     font-weight: 400;
     font-family: $font-regular;
+    text-decoration: none;
   }
     .after-header {
       background-color: $bg-color-primary-3;
       height: 470px;
       background-image: url("../../img/woman.svg");
       background-position-y: 3.3%;
+      background-repeat: no-repeat;
     }
 
 }
