@@ -1,36 +1,45 @@
 header {
-  .before-header {
-    //background-color: $bg-color-primary-1;
-    height: 55px;
-    background-image: url("../../img/Bg\ Dark2.svg");
-    padding: 10px 0;
-  }
-  .header-menu {
+  .menu--header__bg {
     background-color: $bg-color-primary-2;
-    height: 40px;
+    padding: 15px 0;
   }
-  
-  .header-contact span {
-    color: $font-color-primary-1;
-    font-size: 20px;
-    font-weight: 100;
-    font-family: $font-thin;
-}
 
-  .header-contact span a {
-    color: $font-color-primary-1;
-    font-size: 20px;
-    font-weight: 400;
-    font-family: $font-regular;
+  .after-header {
+    background-color: $bg-color-primary-3;
+    height: 470px;
+    background-image: url("../../img/woman.svg");
+    background-position-y: 3.3%;
+    background-repeat: no-repeat;
+  }
+
+  .top--header__bg {
+    background-image: url("../../img/Bg\ Dark2.svg");
+    background-size: cover;
+    padding: 20px 0;
+  }
+  .top--header_toll {
+    @include font(20px, $font-thin, $bg-color-primary-5, 100);
+  }
+  .top--header__numbers {
+    @include font(20px, $font-regular, $bg-color-primary-5, 600);
     text-decoration: none;
   }
-    .after-header {
-      background-color: $bg-color-primary-3;
-      height: 470px;
-      background-image: url("../../img/woman.svg");
-      background-position-y: 3.3%;
-      background-repeat: no-repeat;
+  .top--header_butons {
+    text-align: right;
+    a {
+      text-align: left;
     }
-
+    .btn--liveChat:hover {
+      background: url("../../img/Chat2.svg") no-repeat 100%;
+      color: $bg-color-btn_hover-2;
+    }
+    .btn--header_login:hover {
+      background: url("../../img/Login2.svg") no-repeat 100%;
+      color: $bg-color-btn_hover-2;
+    }
+    
+  }
+  a:first-child {
+    margin-right: 30px;
+  }
 }
-
