@@ -4,17 +4,17 @@ header {
     padding: 15px 0;
   }
 
-  .after-header {
+  .after-header__bg {
     background-color: $bg-color-primary-3;
     height: 470px;
     background-image: url("../../img/woman.svg");
-    background-position-y: 3.3%;
+    //background-position-y: 3.3%;
     background-repeat: no-repeat;
   }
 
   .top--header__bg {
     background-image: url("../../img/Bg\ Dark2.svg");
-    background-size: cover;
+    //background-size: cover;
     padding: 20px 0;
   }
   .top--header_toll {
@@ -37,9 +37,86 @@ header {
       background: url("../../img/Login2.svg") no-repeat 100%;
       color: $bg-color-btn_hover-2;
     }
-    
   }
-  a:first-child {
+  .top--header_butons a:first-child {
     margin-right: 30px;
   }
+  .nav > li{
+    display: inline-block;
+    list-style-type: none;
+    text-decoration: none;
+  }
+  .nav > li > a {
+    text-decoration: none;
+  }
+  
+  // .navbar-nav > li > a {
+  //   position: relative;
+  //   display: block;
+  //   padding: 0px 10px;
+  //   text-decoration: none;
+  //   font-family: $font-regular;
+  //   font-size: 30px;
+  //   font-weight: 400;
+  //   line-height: 20px;
+  //   text-transform: uppercase;
+  //   color: $font-color-primary-2;
+  //   text-decoration: none;
+  //   list-style-type: none;  
+  // }
+  // .navbar-nav > li > a:hover {
+  //   height: 40px;
+  //   background-color: $bg-color-btn_hover-1;
+  // }
+  .col-md-12 {
+    width: 100%;
+}
+.btnBetter{
+  background-color: $bg-color-primary-5;
+  color: $bg-color-primary-2;
+  &:after{
+    border-color: $bg-color-primary-5 transparent transparent;
+  }
+  &:hover:after{
+    border-color: $bg-color-primary-2 transparent transparent;
+  }
+  &:hover{
+    background-color: $bg-color-primary-2;
+    color: $bg-color-primary-5;
+  }
+}
+
+.nav {
+  padding-top: 4px;
+  color: $font-color-primary-2;
+  width: 100%;
+  align-items: center;
+  font-family: $font-regular;
+  font-size: 22px;
+  text-transform: uppercase;
+  float: right;
+}
+
+.nav__link{        
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 5px;
+  position: relative;
+  color: $font-color-primary-2;
+  //text-decoration: yellow;
+  transition: color .1s linear;
+}
+.nav__link:hover {
+  color: $font-color-primary-3;
+  background-color: $bg-color-btn_hover-1;
+  text-decoration: none;
+}
+.nav__link.active {
+  color: $font-color-primary-3; 
+  background-color: $bg-color-btn_hover-1;
+  
+  ;
+}
+
+
 }
