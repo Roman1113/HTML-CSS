@@ -60,4 +60,77 @@ footer {
   .fa_pinterest {
     background-image: url(../../img/Pinterest.svg);
   }
+  .footer-bg {
+    background-color: $bg-color-primary-1;
+    background-image: url("../../img/Bg1.svg");
+    background-repeat: no-repeat;
+    background-position: 50% -140px;
+    background-size: 114%;
+}
+.footer-bg {
+  padding: 25px 0 0;
+}
+.footer-menu ul li a {
+  color: #caddea;
+  font-family: "Arial Narrow",sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+}
+.open-menu-block {
+  text-align: center;
+  position: relative;
+  margin: 30px 0 13px;
+}
+.open-menu-block a {
+  display: inline-block;
+  width: 46px;
+  height: 46px;
+  border: .1em solid #caddea;
+  font-size: 3em;
+  border-radius: 50%;
+  position: relative;
+  -moz-transition: .5s;
+  -o-transition: .5s;
+  -webkit-transition: .5s;
+  transition: .5s;
+  -moz-transform: translateZ(0);
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  background: #caddea;
+  text-decoration: none;
+}
+.open-menu-block a:after {
+  content: "";
+  display: block;
+  position: absolute;
+  background-color: #013056;
+  width: 12%;
+  height: 70%;
+  left: 44%;
+  top: 15%;
+}
+a:focus, a:hover {
+  color: #23527c;
+  text-decoration: underline;
+}
+.open-menu-block {
+  text-align: center;
+  position: relative;
+  margin: 30px 0 13px;
+}
+.open-menu-block a:before {
+  content: "";
+  display: block;
+  position: absolute;
+  background-color: #013056;
+  width: 70%;
+  height: 12%;
+  left: 15%;
+  top: 44%;
+}
+a {
+  color: #337ab7;
+  text-decoration: none;
+}
 }
